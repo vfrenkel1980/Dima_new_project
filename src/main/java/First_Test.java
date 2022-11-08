@@ -35,7 +35,8 @@ public class First_Test {
         driver.navigate().back();
 
         Thread.sleep(5000);
-       // element.sendKeys(Keys.ENTER);
+        element.sendKeys("selenium");
+        element.sendKeys(Keys.ENTER);
 
         driver.quit();
 

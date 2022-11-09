@@ -27,7 +27,6 @@ public class First_Test {
 
         WebElement element = driver.findElement(By.name("q"));
         element.sendKeys("selenium");
-
         WebElement button=driver.findElement(By.xpath("//input[@class='gNO89b']"));
 
         button.click();
@@ -39,6 +38,9 @@ public class First_Test {
         element.sendKeys(Keys.ENTER);
 
         driver.quit();
+
+
+        ///cloning
 
 
 
